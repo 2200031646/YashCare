@@ -1,0 +1,73 @@
+.admin-dashboard {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  min-height: 80vh;
+}
+
+.admin-heading {
+  margin-bottom: 30px;
+}
+
+.admin-heading h2 {
+  color: #123b4a;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.admin-heading p {
+  color: #687780;
+  margin-top: 8px;
+}
+
+.admin-stat-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e3ecef;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.admin-stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.admin-stat-card h6 {
+  color: #647780;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.admin-stat-card h2 {
+  color: #087e8b;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.admin-section {
+  background: #ffffff;
+  padding: 25px;
+  margin-top: 35px;
+  border-radius: 12px;
+  border: 1px solid #e3ecef;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-section h3 {
+  color: #123b4a;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.admin-section p {
+  color: #687780;
+  margin-bottom: 20px;
+}
+
+.admin-section thead th {
+  background: #eaf5f6;
+  color: #123b4a;
+}

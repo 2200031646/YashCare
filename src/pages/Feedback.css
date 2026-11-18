@@ -1,0 +1,165 @@
+.feedback-page {
+  min-height: 100vh;
+  padding: 30px 20px 40px;
+  background: #f3f9f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.feedback-header {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 20px;
+}
+
+.feedback-header span {
+  color: #078b87;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.feedback-header h1 {
+  color: #15364a;
+  font-size: 34px;
+  font-weight: 750;
+  margin: 8px 0;
+}
+
+.feedback-header p {
+  color: #687b80;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.feedback-container {
+  max-width: 650px;
+  margin: auto;
+}
+
+.feedback-form {
+  background: white;
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(21, 54, 74, 0.08);
+}
+
+.feedback-form h2 {
+  color: #15364a;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.feedback-subtitle {
+  color: #7a898d;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.feedback-field {
+  margin-bottom: 15px;
+}
+
+.feedback-field label {
+  display: block;
+  color: #254653;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.feedback-field input,
+.feedback-field select,
+.feedback-field textarea {
+  width: 100%;
+  padding: 10px 13px;
+  border: 1px solid #d7e3e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  color: #354f58;
+  background: white;
+}
+
+.feedback-field input:focus,
+.feedback-field select:focus,
+.feedback-field textarea:focus {
+  border-color: #078b87;
+  box-shadow: 0 0 0 3px rgba(7, 139, 135, 0.1);
+}
+
+.feedback-field textarea {
+  resize: vertical;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.star {
+  background: none;
+  border: none;
+  color: #cbd5d5;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
+  transition: 0.2s;
+}
+
+.star.active {
+  color: #f4b400;
+}
+
+.star:hover {
+  transform: scale(1.12);
+}
+
+.feedback-field small {
+  color: #7a898d;
+  font-size: 12px;
+}
+
+.feedback-message {
+  color: #078477;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.feedback-submit {
+  width: 100%;
+  padding: 11px;
+  background: #078477;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.feedback-submit:hover {
+  background: #05685f;
+}
+
+@media (max-width: 576px) {
+  .feedback-page {
+    padding: 25px 15px 35px;
+  }
+
+  .feedback-header h1 {
+    font-size: 28px;
+  }
+
+  .feedback-form {
+    padding: 22px 20px;
+  }
+
+  .feedback-form h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,83 @@
+.my-registrations-page {
+  min-height: 100vh;
+  padding: 45px 7%;
+  background: #f5f9f9;
+}
+
+.registrations-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.registrations-header h1 {
+  color: #123b46;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.registrations-header p {
+  color: #66777c;
+  margin-top: 10px;
+}
+
+.registrations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.registration-item {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  border-left: 4px solid #078477;
+}
+
+.registration-item h3 {
+  color: #123b46;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.registration-item p {
+  color: #53666b;
+  font-size: 14px;
+  margin-bottom: 12px;
+  overflow-wrap: anywhere;
+}
+
+.registration-status {
+  display: inline-block;
+  background: #e0f3ef;
+  color: #087f70;
+  padding: 6px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.empty-registrations {
+  text-align: center;
+  background: white;
+  padding: 45px 20px;
+  border-radius: 12px;
+  color: #66777c;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.empty-registrations h3 {
+  color: #123b46;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .my-registrations-page {
+    padding: 30px 5%;
+  }
+
+  .registrations-header h1 {
+    font-size: 26px;
+  }
+}

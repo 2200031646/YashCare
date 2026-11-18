@@ -1,0 +1,186 @@
+.camps-page {
+  padding: 50px 3%;
+  background: #f5f9f9;
+  min-height: 100vh;
+}
+
+.camps-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.camps-header h1 {
+  color: #123b46;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.camps-header p {
+  color: #66777c;
+  margin-top: 10px;
+}
+
+/* Camp Filters */
+.camp-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.camp-filters input,
+.camp-filters select {
+  padding: 12px 15px;
+  border: 1px solid #d5e2e0;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.camp-filters input {
+  width: 350px;
+}
+
+.camp-filters input:focus,
+.camp-filters select:focus {
+  border-color: #078477;
+}
+
+/* Medical Camps Grid */
+.camps-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 25px;
+}
+
+/* Camp Card */
+.camp-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.camp-card:hover {
+  transform: translateY(-6px);
+}
+
+.camp-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.camp-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.camp-category {
+  display: inline-block;
+  background: #e0f3ef;
+  color: #087f70;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.camp-content h3 {
+  color: #123b46;
+  margin: 15px 0 10px;
+  font-size: 20px;
+}
+
+.camp-content > p {
+  color: #66777c;
+  font-size: 14px;
+}
+
+/* Camp Details */
+.camp-details {
+  margin-top: 15px;
+}
+
+.camp-details p {
+  color: #53666b;
+  font-size: 13px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.camp-details svg {
+  color: #078b87;
+  width: 16px;
+  min-width: 16px;
+  font-size: 15px;
+}
+
+/* View Details Button */
+.camp-btn {
+  width: 100%;
+  padding: 11px;
+  background: #078477;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-top: auto;
+  min-height: 52px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s ease;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.camp-btn:hover {
+  background: #05685f;
+}
+
+/* No Camps Found */
+.no-camps {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #66777c;
+  padding: 30px;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .camps-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .camps-page {
+    padding: 35px 5%;
+  }
+
+  .camps-header h1 {
+    font-size: 28px;
+  }
+
+  .camps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .camp-filters {
+    flex-direction: column;
+  }
+
+  .camp-filters input {
+    width: 100%;
+  }
+}

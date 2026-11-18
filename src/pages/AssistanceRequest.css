@@ -1,0 +1,106 @@
+.assistance-page {
+  min-height: 100vh;
+  padding: 35px 20px;
+  background: #f5f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assistance-card {
+  width: 100%;
+  max-width: 550px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.assistance-card h2 {
+  color: #123b46;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.assistance-subtitle {
+  color: #66777c;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.assistance-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.assistance-card label {
+  color: #123b46;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.assistance-card input,
+.assistance-card select,
+.assistance-card textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d5e2e0;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 17px;
+  font-family: inherit;
+}
+
+.assistance-card input:focus,
+.assistance-card select:focus,
+.assistance-card textarea:focus {
+  border-color: #078477;
+}
+
+.assistance-card textarea {
+  resize: vertical;
+}
+
+.assistance-btn {
+  background: #078477;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.assistance-btn:hover {
+  background: #05685f;
+}
+
+.assistance-success {
+  background: #e0f3ef;
+  color: #087f70;
+  padding: 12px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+  .assistance-page {
+    padding: 25px 15px;
+  }
+
+  .assistance-card {
+    padding: 22px;
+  }
+
+  .assistance-card h2 {
+    font-size: 21px;
+  }
+}

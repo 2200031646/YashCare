@@ -1,0 +1,102 @@
+.camp-details-page {
+  min-height: 100vh;
+  padding: 35px 5%;
+  background: #f5f9f9;
+}
+
+.camp-details-card {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.camp-details-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.camp-details-info {
+  padding: 25px;
+}
+
+.camp-details-info h1 {
+  color: #123b46;
+  font-size: 28px;
+  margin: 15px 0 10px;
+}
+
+.camp-description {
+  color: #66777c;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.camp-info-list {
+  margin-top: 20px;
+}
+
+.camp-info-list p {
+  color: #53666b;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.back-camps-btn,
+.camp-not-found button {
+  background: #078477;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.back-camps-btn:hover,
+.camp-not-found button:hover {
+  background: #05685f;
+}
+
+.camp-not-found {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+@media (max-width: 576px) {
+  .camp-details-page {
+    padding: 25px 5%;
+  }
+
+  .camp-details-card img {
+    height: 180px;
+  }
+
+  .camp-details-info {
+    padding: 20px;
+  }
+
+  .camp-details-info h1 {
+    font-size: 23px;
+  }
+}
+
+.register-camp-btn {
+  background: #078477;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.register-camp-btn:hover {
+  background: #05685f;
+}

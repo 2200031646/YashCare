@@ -1,0 +1,125 @@
+.donation-page {
+  min-height: 100vh;
+  padding: 35px 20px;
+  background: #f5f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.donation-card h2 {
+  color: #123b46;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.selected-campaign {
+  color: #078477;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.donation-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-card label {
+  color: #123b46;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.donation-card input {
+  padding: 12px;
+  border: 1px solid #d5e2e0;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.donation-card input:focus {
+  border-color: #078477;
+}
+
+.donation-btn {
+  background: #078477;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.donation-btn:hover {
+  background: #05685f;
+}
+
+.donation-back-btn {
+  width: 100%;
+  background: transparent;
+  color: #078477;
+  border: 1px solid #078477;
+  padding: 11px;
+  border-radius: 7px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.donation-back-btn:hover {
+  background: #e0f3ef;
+}
+
+.donation-success {
+  background: #e0f3ef;
+  color: #087f70;
+  padding: 12px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+/* Error Message */
+.donation-error {
+  background: #fdeaea;
+  color: #b42318;
+  padding: 12px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.demo-note {
+  color: #899699;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .donation-page {
+    padding: 20px 15px;
+  }
+
+  .donation-card {
+    padding: 22px;
+  }
+}
